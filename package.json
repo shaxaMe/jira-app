@@ -10,8 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/ui": "^2.16.0",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "add": "^2.0.6",
+    "modules": "^0.4.0",
     "nuxt": "^3.11.2",
+    "nuxt-highcharts": "^3.1.1",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.77.1"
   }
 }
