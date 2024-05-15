@@ -4,7 +4,7 @@
             <aside class="aside-bar max-w-[350px] flex-1 border px-2 py-3">
                 <div class="row">
                     <div class="col-3">
-                        <h3>Draggable 1</h3>
+                        <h3>Namuna</h3>
                         <draggable class="list-group" :list="list1"
                             :group="{ name: 'people', pull: 'clone', put: false }" @change="log" itemKey="name">
                             <template #item="{ element, index }">
@@ -35,7 +35,7 @@
             </aside>
             <div class="flex-1">
                 <div class="col-3 relative">
-                    <h3 class="mb-7">Draggable 2</h3>
+                    <h3 class="mb-7">Dashboard</h3>
                     <draggable
                         :class="{ 'p-10 min-h-48 flex z-10 max-w-80 justify-center items-center border rounded-lg': list2.length == 0 }"
                         class="list-group grid grid-cols-3 gap-3" :list="list2" group="people" @change="log" itemKey="name">
